@@ -1,0 +1,42 @@
+div.pager {
+    margin-top: 20px;
+    font-size: 85%;
+}
+
+div.pager a,
+div.pager span {
+    display: block;
+    float: left;
+    margin-right: 0.1em;
+    padding: 0.2em 0.5em;
+}
+
+div.pager a {
+    color: #105cb6;
+    background-color: #fff;
+    border: 1px solid #9aafe5;
+    text-decoration: none;
+}
+
+div.pager a:hover {
+    color: #003;
+    background-color: #fff;
+    border: 1px solid #2e6ab1;
+}
+
+div.pager span.current {
+    color: #fff;
+    background-color: #2e6ab1;
+    border: 1px solid #2e6ab1;
+    font-weight: bold;
+}
+
+div.pager span.nextprev {
+    border: 1px solid #ddd;
+    color: #999;
+    background-color: #fff;
+}
+
+div.pager a.nextprev {
+    font-weight: bold;
+}

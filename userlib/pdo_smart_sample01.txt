@@ -1,0 +1,71 @@
+<?php
+
+require_once 'Pager_Wrapper.php';
+require_once './libs/Smarty.class.php';
+
+//Smartyオブジェクトの作成
+$smarty = new Smarty();
+
+//PDOコネクト
+try {
+  $connect_db = "mysql:dbname=a6751736_test;host=mysql15.000webhost.com";
+  $connect_user = 'a6751736_admin';
+  $connect_passwd = 'B9OrV4c6sd';
+
+  //データベース接続
+  $conn = new PDO(
+        $connect_db,
+        $connect_user,
+        $connect_passwd,
+        array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8")
+  );
+} catch (Exception $e) {
+  echo 'ERROR: ' . $e->getMessage();
+  die();
+}
+
+//Pagerオブジェクトの作成
+$params = array(
+    'mode' => 'Sliding',          //動作モードを指定。ジャンプ型(Jumping)又はスライド型(Sliding)
+    'perPage' => 20,              //1ページごとに表示されるアイテム数
+    'delta' => 1,                 //現在のページの前後に表示するページ番号の数
+    'httpMethod' => 'get',        //使用するHTTPメソッド(getまたはpost)
+    'prevImg' => '前へ',           //"<<"の代わりに表示する文字を指定
+    'nextImg' => '次へ',           //">>"の代わりに表示する文字を指定
+    'altPrev' => '',              //前ページへのリンクに表示されるalt文を指定
+    'altNext' => '',              //次ページへのリンクに表示されるalt文を指定
+    'firstPageText' => '先頭',    //最初のページ番号の文字を指定
+    'lastPageText' => '最後',     //最後のページ番号の文字を指定
+    'spacesBeforeSeparator' => 2, //セパレータの前のスペースの数を指定
+    'spacesAfterSeparator' => 2,  //セパレータの後のスペースの数を指定
+);
+$sqlStr = 'select * from zip';
+$zip = Pager_Wrapper_PDO($conn, $sqlStr, $params);
+
+$smarty->assign('pagedata', $zip['data']);
+$smarty->assign('link', $zip['links']);
+$smarty->assign('page_nums', $zip['page_numbers']);
+$smarty->display('pager8.tpl');
+?>
+*---------------------------------------------------------
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Pager+PDO+Smarty(Pager_Wrapper.php)</title>
+</head>
+<body>
+<div>{$link}</div>
+<br />
+<table border="1">
+{foreach from=$pagedata item=var}
+  <tr>
+    <td>{$var.zip}</td>
+    <td>{$var.addr1}{$var.addr2}{$var.addr3}</td>
+  </tr>
+{/foreach}
+</table>
+<br />
+<div> [{$page_nums['current']}/{$page_nums['total']}ページを表示]</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+ <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <!-- animsition -->
+  <link rel="stylesheet" href="template/animsition-master/src/css/animsition.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="template/animsition-master/src/js/animsition.js"></script>
+  <script type="text/javascript"> 
+$(document).ready(function() {
+  $(".anim").animsition({
+    inClass               :   'fade-in-left', //ページ表示時のアニメーション
+    outClass              :   'fade-out', //遷移時のアニメーション
+    inDuration            :    0700,　//inするときの時間
+    outDuration           :    0700, //out時の時間
+    linkElement           :   '.animsition-link',  //対象のリンク
+    touchSupport          :    true, //タップOK
+    loading               :    true,　//ローディングOK
+    loadingParentElement  :   'body', //アニメーション対象
+    loadingClass          :   'animsition-loading', //ローディングのclass
+  });
+}); 
+  </script>
+<title>サンプル</title>
+</head>
+<body class="anim">
+
+<div>{$xxx}</div>
+
+<button style='width:120px;margin-top:25px;'><a href="index.php"   class="animsition-link"> <i class="fa fa-home"></i> <span>Home</span> <i class="fa fa-angle-left pull-right"></i></button>
+</body>
+</html>
+

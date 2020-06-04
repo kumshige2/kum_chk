@@ -1,0 +1,340 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles  upsplash_058.*/
+
+.header01 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/black-and-white-ocean.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header02 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/index_02.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header03 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/index_03.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header04 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/index_04.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header05 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/index_05.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header06 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/index_06.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header07 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/index_07.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header08 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/index_08.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header09 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/index_09.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header10 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/index_179.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header11 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/index_05x.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header12 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_052.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header13 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_053.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header14 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_054.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header15 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_055.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header16 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_056.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header17 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_057.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header18 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_058.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header19 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_059.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header20 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_060.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header21 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_061.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header22 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_062.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header23 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_063.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header24 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_064.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header25 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_065.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header26 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_066.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header27 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_067.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header28 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_068.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header29 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_069.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.header30 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background: url(../../img/designerspic_070.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+ 

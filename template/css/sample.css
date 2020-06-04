@@ -1,0 +1,32 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 600px;
+	margin: 30px auto;
+}
+
+h1 {
+	border-bottom: 1px solid #666;
+	font-size: 20px;
+	color: #666;
+	margin-bottom: 5px;
+}
+
+#back {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+.dk_container {
+	margin-right: 10px;
+}

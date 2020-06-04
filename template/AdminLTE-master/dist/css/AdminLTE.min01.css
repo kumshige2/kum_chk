@@ -1,0 +1,28 @@
+/*----
+
+.info-box-content {
+	padding: 10px 10px;
+	margin-left: 90px;
+	line-height:80%;
+}
+
+---*/
+.info-box-number {
+	font-size: 16px
+}
+/*--
+.info-box-icon {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 2px;
+	display: block;
+	float: left;
+	height: 96px;
+	width: 90px;
+	text-align: center;
+	font-size: 45px;
+	line-height: 90px;
+	background: rgba(0,0,0,0.2)
+}
+----*/
